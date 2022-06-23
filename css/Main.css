@@ -1,0 +1,123 @@
+#heading{
+    color: rgb(159, 177, 181);
+    font-size: 1.2em;
+
+}
+body{
+    color:rgb(159, 177, 181);
+    font-size: 16px;
+    background-color: rgb(30, 30, 30);
+    font-family: 'Merriweather Sans', sans-serif;
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.Navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 12px;
+    flex-shrink: 0;
+}
+.secret{
+    color: rgb(30, 30, 30);
+}
+.secret:hover{
+    color:rgb(159, 177, 181);
+}
+.nav-item{
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(95, 95, 95);
+    color: rgb(159, 177, 181);
+    padding: 25px;
+    border-color:rgb(19, 19, 19);
+    border-width: 2px;
+    border-radius: 75px;
+    width: 175px;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 0px;
+}
+#current_page{
+    background-color: rgb(19, 19, 19);
+}
+
+.links{
+    display: flex;
+    box-sizing:content-box;
+    background-color: rgb(39, 39, 39);
+    color: rgb(159, 177, 181);
+    padding: 14px;
+    align-items: center;
+    font-size: 16px;
+    border-color:rgb(0, 0, 0);
+    border-radius: 10px;
+    width:  auto;
+    justify-content: space-between;
+    gap: 10px; 
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.logo{
+    display:flex;
+    background-color: rgb(109, 109, 109);
+    color: rgb(159, 177, 181);
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+    align-items: center;
+    border-radius: 25px;
+    margin:10
+}
+.text_container_right{
+    display: flex;
+    width: auto;
+    height: 150px;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    margin:0;
+}
+.text_container_left{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: left;
+    align-items: center;
+}
+.text_box_left{
+    display: flex;
+    align-self: left;
+    width: 800px;
+    gap:250;
+    align-items: center;
+    margin: 100px;
+}
+.text_box_right{
+    display: flex;
+    width: 800px;
+    gap:250;
+    align-items: center;
+    margin: 100px;
+}
+.img_full{
+    max-width: fit-content;
+    max-height: fit-content;
+}
+#long_text_right{
+    width:auto
+}
+a:visited{
+    color: rgb(159, 177, 181);
+}
